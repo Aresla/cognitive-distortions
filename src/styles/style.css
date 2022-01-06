@@ -1,0 +1,77 @@
+/** CSS STYLE **/
+@font-face {
+    font-family: 'Open Sans';
+    src: url('//assets/fonts/OpenSans-VariableFont_wdth,wght.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'Neucha';
+    src: url('//assets/fonts/Neucha-Regular.ttf') format("truetype");
+}
+
+:root {
+    --white: #fff;
+    --translucentwhite: #d7ccc0;
+    --light: #f5f4f0;
+    --main: #fe8a02;
+    --maindark: #42413c;
+    --dark: #2a2626;
+    --translucentdark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+body {
+    font: 16px/1.6em 'Open Sans', sans-serif;
+    color: #2A2626;
+}
+
+h1, h2, h3 {
+    font-family: 'Neucha', sans-serif;
+    line-height: 1.2em;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+p {
+    max-width: 1100px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.main-img {
+    height: 525px;
+    margin-top: 55px;
+    margin-right: -270px;
+}
+
+.flex-inline {
+    display: inline-flex;
+}
+
+.flex-inline div {
+    margin-right: 30px;
+}
+
+.btn-header {
+    padding: 12px 24px 12px 24px;
+    font-weight: bold;
+}
+
+.background-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+
