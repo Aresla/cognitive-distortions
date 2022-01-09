@@ -107,3 +107,38 @@ header:before {
     background:url("../../src/images/background.png");
     background-size:cover;
 }
+
+.video-section {
+    text-align: center;
+    width: 1440px;
+    height: 914px;
+    left: 0;
+    background: var(--white);
+}
+
+.video-section span{
+    color: var(--main);
+}
+
+.video-section h1{
+    margin-top: 100px;
+}
+
+.video-sect-p {
+    margin-top: 27px;
+    margin-bottom: 30px;
+}
+
+.video {
+    filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    margin-bottom: -92px;
+    border-width: 0;
+}
+
+.bottom-block {
+    width: 1440px;
+    height: 100px;
+    left: 0;
+    bottom: 0;
+    background-color: var(--maindark);
+}
