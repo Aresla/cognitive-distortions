@@ -6,4 +6,9 @@ lint:
 	npx htmlhint ./src/*.html
 
 deploy:
-	npx surge ./src/
+	npm run build
+	npx surge ./dist ad-chairs.surge.sh
+
+dev:
+	npm start
+
