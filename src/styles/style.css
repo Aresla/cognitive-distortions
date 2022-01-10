@@ -38,13 +38,14 @@ h3 {
     font-size: 34px;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h4, h5, h6 {
     margin: 0;
 }
 
 header {
     max-width: 1100px;
     padding: 100px 137px 100px 165px;
+    overflow-x: hidden;
 }
 
 header {
@@ -69,7 +70,7 @@ header {
     grid-area: right;
 }
 
-.title-header {
+.main-color {
     color: var(--main);
 }
 
@@ -110,8 +111,8 @@ header:before {
 
 .video-section {
     text-align: center;
-    width: 1440px;
-    height: 914px;
+    width: 100%;
+    height: 814px;
     left: 0;
     background: var(--white);
 }
@@ -136,9 +137,81 @@ header:before {
 }
 
 .bottom-block {
-    width: 1440px;
+    width: 100%;
     height: 100px;
     left: 0;
+    right: 0;
     bottom: 0;
     background-color: var(--maindark);
 }
+
+#navigation {
+    padding: 100px 165px;
+    max-width: 100%;
+    background-color: var(--maindark);
+}
+
+.navigation-content {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    row-gap: 20px;
+    grid-template-areas:
+    "title one two"
+    "three four five"
+}
+
+.navig-title {
+    grid-area: title;
+}
+
+.block-one {
+    grid-area: one;
+}
+
+.block-two {
+    grid-area: two;
+}
+
+.block-three {
+    grid-area: three;
+}
+
+.block-four {
+    grid-area: four;
+}
+
+.block-five {
+    grid-area: five;
+}
+
+.navig-title h3 {
+    font-size: 52px;
+}
+
+.number {
+    margin-bottom: 40px;
+    font-family: 'Neucha', sans-serif;
+    font-size: 64px;
+    line-height: 1;
+}
+
+#navigation div h3 {
+    color: var(--main);
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.navig-title {
+    background-color: var(--maindark);
+}
+
+.card {
+    justify-items: center;
+    background-color: var(--white);
+    padding: 24px;
+}
+
