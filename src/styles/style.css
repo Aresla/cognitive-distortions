@@ -417,6 +417,26 @@ header:before {
     margin-top: 30px;
 }
 
+#hyperbolic-depreciation {
+    position: relative;
+    background-color: var(--brown);
+    opacity: 0.9;
+    padding: 100px 0;
+    color: var(--white);
+}
+
+#hyperbolic-depreciation:before {
+    content:"";
+    opacity: 0.1;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url("../../src/images/background.png");
+    background-size:cover;
+}
 
 
 
