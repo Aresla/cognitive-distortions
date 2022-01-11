@@ -252,19 +252,8 @@ header:before {
 }
 
 .top-part {
-    display: grid;
-    grid-template-columns: calc(53.52% - 15px) calc(46.48% - 15px);
-    column-gap: 30px;
-    grid-template-areas:
-    "top-part-left top-part-right"
-}
-
-.top-part-left {
-    grid-area: top-part-left;
-}
-
-.top-part-right {
-    grid-area: top-part-right;
+    display: flex;
+    gap: 30px;
 }
 
 .top-part-right p {
@@ -281,11 +270,7 @@ header:before {
 }
 
 .top-part-left {
-    width: 434px;
-    height: 578px;
     /*vertical-align: middle;*/
-    right: 0;
-    justify-items: end;
 }
 
 .down-part {
@@ -332,6 +317,19 @@ header:before {
     color: var(--white);
 }
 
+#premature-optimization:before {
+    content:"";
+    opacity: 0.1;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url("../../src/images/background.png");
+    background-size:cover;
+}
+
 .up-part {
     display: flex;
     gap: 30px;
@@ -347,19 +345,6 @@ header:before {
     font-size: 34px;
     line-height: 41px;
     margin-top: 30px;
-}
-
-#premature-optimization:before {
-    content:"";
-    opacity: 0.1;
-    position: absolute;
-    z-index:-1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background:url("../../src/images/background.png");
-    background-size:cover;
 }
 
 
@@ -394,6 +379,44 @@ header:before {
     font-weight: bold;
     padding-left: 10px;
 }
+
+#distortion-of-novelty {
+    position: relative;
+    background-color: var(--light);
+    opacity: 0.9;
+    padding: 100px 0;
+}
+
+#distortion-of-novelty:before {
+    content:"";
+    opacity: 0.1;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url("../../src/images/background.png");
+    background-size:cover;
+}
+
+.part-one {
+    display: flex;
+    gap: 30px;
+}
+
+.part-one-right p {
+    font-family: 'Neucha', sans-serif;
+    font-size: 24px;
+}
+
+.part-one-right-text {
+    font-family: 'Neucha', sans-serif;
+    font-size: 34px;
+    line-height: 41px;
+    margin-top: 30px;
+}
+
 
 
 
