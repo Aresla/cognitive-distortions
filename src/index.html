@@ -19,7 +19,7 @@
 </head>
 <body>
     <div class="content-wrapper">
-        <header>
+        <header class="with-image-background">
             <h1 class="title-header main-color">Когнитивные<br> искажения<br> <span>в программировании</span></h1>
             <img alt="main image" src="images/main.png" class="main-img">
             <div class="left-block">
@@ -33,9 +33,9 @@
                     продуктивности, багам и бесконечному разочарованию. Если мы сможем минимизировать воздействие
                     одного или нескольких из этих факторов, то сможем сломать и цикл, а остатки нейтрализовать.
                 </p>
-                <button class="more-details-button">
-                    <a href="">Подробнее</a>
-                </button>
+                <form action="#navigation" method="get">
+                    <button type="submit" class="details-button">Подробнее</button>
+                </form>
             </div>
         </header>
     </div>
@@ -43,48 +43,58 @@
         <div class="video-section">
             <h1>Что же это такое,<br> <span>когнитивные искажения?</span></h1>
             <p class="video-sect-p">Что такое когнитивные искажения. Petrovna Channel</p>
-            <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss" allowfullscreen>
+            <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss">
             </iframe>
             <div class="bottom-block"></div>
         </div>
         <div id="navigation">
             <div class="content-wrapper">
                 <div class="navigation-content">
-                    <div class="navig-title">
-                        <h3 class="main-color ">5 когнитивных искажений<br> <span class="white-text">о существовании которых стоит помнить</span></h3>
+                    <div class="navigation-title">
+                        <h3 class="main-color ">5 когнитивных искажений<br> <span class="white-text">о существовании
+                            которых стоит помнить</span></h3>
                     </div>
                     <div class="block-one card">
+                        <a href="#ikea-effect">
                         <span class="number">1</span>
                         <h3>Эффект ИКЕА</h3>
-                        <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других. </p>
+                        <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
+                        </a>
                     </div>
                     <div class="block-two card">
+                        <a href="#premature-optimization">
                         <span class="number">2</span>
                         <h3>Преждевременная оптимизация</h3>
                         <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
+                        </a>
                     </div>
                     <div class="block-three card">
+                        <a href="#distortion-of-novelty">
                         <span class="number">3</span>
                         <h3>Искажение новизны</h3>
                         <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете
-                            более старые.
-                        </p>
+                            более старые.</p>
+                        </a>
                     </div>
                     <div class="block-four card">
+                        <a href="#hyperbolic-depreciation">
                         <span class="number">4</span>
                         <h3>Гиперболическое обесценивание</h3>
                         <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас,
                             но доступную в будущем.</p>
+                        </a>
                     </div>
                     <div class="block-five card">
+                        <a href="#errors-in-planning">
                         <span class="number">5</span>
                         <h3>Ошибка планирования</h3>
-                        <p>Неправильно рассчитывать время необходимое для завершения задачи.   </p>
+                        <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-        <div id="ikea-effect">
+        <div id="ikea-effect" class="width-limited with-image-background">
             <div class="content-wrapper">
                 <div class="top-part">
                     <div class="top-part-left">
@@ -107,19 +117,20 @@
                         товары, которые они могут собрать сами, а не уже собранные кем-то.
                     </div>
                     <div class="down-part-right">
-                        Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то
-                        работали в компании, которая использовала тупой внутренний инструмент вместо более удобного
-                        готового решения, вы понимаете, о чём я говорю.
+                        Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы
+                        когда-то работали в компании, которая использовала тупой внутренний инструмент вместо более
+                        удобного готового решения, вы понимаете, о чём я говорю.
                     </div>
                 </div>
             </div>
         </div>
-        <div id="premature-optimization" class="width-limited">
+        <div id="premature-optimization" class="width-limited with-image-background">
             <div class="up-part">
                 <div class="up-part-left">
                    <p>Когнитивные искажения</p>
                    <h2>Преждевременная оптимизация</h2>
-                   <div class="up-part-left-text">Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</div>
+                   <div class="up-part-left-text">Вы оптимизируете что-то задолго до того, как в этом появляется
+                       необходимость.</div>
                 </div>
                 <div class="up-part-right">
                     <img alt="second image" src="images/2.png" class="images">
@@ -137,7 +148,7 @@
                     </div>
             </div>
         </div>
-        <div id="distortion-of-novelty" class="width-limited">
+        <div id="distortion-of-novelty" class="width-limited with-image-background">
             <div class="top-part">
                 <div>
                     <img alt="third image" src="images/3.png" class="images">
@@ -164,7 +175,7 @@
                 </div>
             </div>
         </div>
-        <div id="hyperbolic-depreciation" class="width-limited">
+        <div id="hyperbolic-depreciation" class="width-limited with-image-background">
             <div class="up-part">
                 <div class="up-part-left">
                     <p>Когнитивные искажения</p>
@@ -191,7 +202,7 @@
                 </div>
             </div>
         </div>
-        <div id="errors-in-planning" class="width-limited">
+        <div id="errors-in-planning" class="width-limited with-image-background">
             <div class="top-part">
                 <div>
                     <img alt="fifth image" src="images/5.png" class="images">
@@ -218,6 +229,26 @@
             </div>
         </div>
     </main>
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="footer-box">
+            <div class="footer-box-text">Хотите узнать больше?<br> Подпишитесь на обновления</div>
+            <div class="newsletter-block">
+                <div class="e-mail">Электронная почта</div>
+                <form>
+                    <input type="email" placeholder="Ваша электронная почта">
+                    <div class="submit" role="button"></div>
+                </form>
+                <p class="agreement">Подписываясь, вы принимаете <a href="" target="_blank">правила
+                сервиса</a></p>
+            </div>
+        </div>
+        <p>&copy; 2022 Татьяна Пантелейчук</p>
+        <p class="source">По материалам статьи
+            <a href="" target="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">
+            Yash Ranadive Cognitive Biases in Programming</a></p>
+        <p class="to-courses"><a href="" target="https://ru.hexlet.io">Курсы программирования Hexlet</a></p>
+    </div>
 </body>
 </html>
+
+<!--placeholder="Ваша электронная почта"-->
