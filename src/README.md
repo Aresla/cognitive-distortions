@@ -5,6 +5,8 @@
 
 ## Setup
 
+https://ad-chairs.surge.sh/
+
 ```sh
 $ make install
 ```
