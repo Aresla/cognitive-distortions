@@ -142,24 +142,32 @@ header {
 
 
 .video-section {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    left: 0;
     background: var(--white);
 }
 
-.video-section span{
+.video-section span {
     color: var(--main);
 }
 
-.video-section h2{
+.video-section h2 {
+    text-align: center;
     padding-top: 100px;
 }
 
 .video-sect-p {
     margin-top: 27px;
     margin-bottom: 30px;
-    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    text-align: center;
+    color: #212529;
 }
 
 .video {
