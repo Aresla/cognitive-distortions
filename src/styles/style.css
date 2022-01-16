@@ -97,6 +97,20 @@ header {
     color: var(--dark);
 }
 
+.with-image-background:before {
+    content:"";
+    opacity: 0.1;
+    position: absolute;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background:url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
 .main-img {
     height: 525px;
     top: 55px;
@@ -134,7 +148,7 @@ header {
     color: var(--main);
 }
 
-.video-section h1{
+.video-section h2{
     padding-top: 100px;
 }
 
@@ -423,18 +437,6 @@ header {
     padding: 100px 0;
 }
 
-.with-image-background:before {
-    content:"";
-    opacity: 0.1;
-    position: absolute;
-    z-index:-1;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background:url("../../src/images/background.png");
-    background-size:cover;
-}
 
 .footer {
     display: flex;
@@ -507,7 +509,7 @@ input[type=email]::placeholder {
 .submit:before {
     content: '';
     position: absolute;
-    background: url('../../src/images/send.svg') no-repeat center center;
+    background: url('../images/send.svg') no-repeat center center;
     width: 70px;
     height: 50px;
     top: 0;
