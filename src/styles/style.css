@@ -359,7 +359,6 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-size: 14px;
     line-height: 17px;
     padding: 5px 10px;
@@ -423,7 +422,6 @@ header {
     text-transform: uppercase;
     font-weight: bold;
     font-family: "Open Sans", sans-serif;
-    font-style: normal;
     font-size: 14px;
     line-height: 17px;
     padding: 5px 10px;
@@ -458,7 +456,6 @@ header {
 #hyperbolic-depreciation {
     position: relative;
     background-color: var(--brown);
-    opacity: 0.9;
     padding: 100px 0;
     color: var(--white);
 }
@@ -487,9 +484,9 @@ header {
     width: 100%;
     max-width: 1110px;
     box-sizing: border-box;
-    background-color: var(--dark);
+    background-color: #42413C;
     padding: 38px 55px 40px 55px;
-    margin-bottom: 60px;
+    margin-bottom: 76px;
     color: var(--white);
 }
 
