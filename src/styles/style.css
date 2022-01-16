@@ -240,11 +240,12 @@ header {
     margin-bottom: 40px;
     font-family: 'Neucha', sans-serif;
     font-size: 64px;
-    line-height: 1;
+    line-height: 70px;
 }
 
 .card h3 {
     color: var(--main);
+    line-height: 120%;
 }
 
 .white-text {
@@ -257,7 +258,7 @@ header {
 
 .card {
     justify-items: center;
-    background-color: var(--white);
+    background-color: var(--light);
     padding: 24px;
 }
 
