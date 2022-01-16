@@ -170,9 +170,13 @@ header {
     color: #212529;
 }
 
+.video-wrapper {
+    margin-bottom: -90px;
+    padding-left: 1px;
+}
+
 .video {
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
-    margin-bottom: -91px;
     border-width: 0;
 }
 
