@@ -21,6 +21,7 @@ body, header {
 h1, h2, h3 {
     font-family: 'Neucha', sans-serif;
     line-height: 1.2em;
+    font-weight: 400;
 }
 
 h1 {
@@ -45,7 +46,7 @@ p, h1, h2, h4, h5, h6 {
 }
 
 .content-wrapper > * {
-    max-width: 1100px;
+    max-width: 1110px;
 }
 
 .width-limited {
@@ -55,7 +56,7 @@ p, h1, h2, h4, h5, h6 {
 }
 
 .width-limited > * {
-    max-width: 1100px;
+    max-width: 1110px;
 }
 
 header {
@@ -125,7 +126,6 @@ header {
 .video-section {
     text-align: center;
     width: 100%;
-    height: 814px;
     left: 0;
     background: var(--white);
 }
@@ -135,12 +135,13 @@ header {
 }
 
 .video-section h1{
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .video-sect-p {
     margin-top: 27px;
     margin-bottom: 30px;
+    font-weight: 400;
 }
 
 .video {
@@ -199,6 +200,11 @@ header {
 }
 
 .navigation-title h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.navigation-title h3 {
     font-size: 52px;
 }
 
@@ -235,7 +241,6 @@ header {
 .card:hover {
     background-color: var(--main);
     color: var(--white);
-    text-decoration: none;
 }
 
 .card:hover h3 {
@@ -410,18 +415,6 @@ header {
     color: var(--white);
 }
 
-/*#hyperbolic-depreciation:before {*/
-/*    content:"";*/
-/*    opacity: 0.1;*/
-/*    position: absolute;*/
-/*    z-index:-1;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    right: 0;*/
-/*    background:url("../../src/images/background.png");*/
-/*    background-size:cover;*/
-/*}*/
 
 #errors-in-planning {
     position: relative;
@@ -443,19 +436,6 @@ header {
     background-size:cover;
 }
 
-/*#errors-in-planning:before {*/
-/*    content:"";*/
-/*    opacity: 0.1;*/
-/*    position: absolute;*/
-/*    z-index:-1;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    right: 0;*/
-/*    background:url("../../src/images/background.png");*/
-/*    background-size:cover;*/
-/*}*/
-
 .footer {
     display: flex;
     flex-direction: column;
@@ -469,7 +449,7 @@ header {
     display: flex;
     flex: 1;
     width: 100%;
-    max-width: 1100px;
+    max-width: 1110px;
     box-sizing: border-box;
     background-color: var(--dark);
     padding: 38px 55px 40px 55px;
