@@ -159,6 +159,7 @@ header {
 }
 
 .video-sect-p {
+    width: 100%;
     margin-top: 27px;
     margin-bottom: 30px;
     font-family: "Open Sans", sans-serif;
@@ -170,15 +171,11 @@ header {
     color: #212529;
 }
 
-.video-wrapper {
-    margin-bottom: -91px;
-    padding-left: 1px;
-}
-
 .video {
     box-sizing: border-box;
     border: 0;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
+    margin-bottom: -91px;
 }
 
 .bottom-block {
