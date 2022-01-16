@@ -369,7 +369,6 @@ header {
 #premature-optimization {
     position: relative;
     background-color: var(--brown);
-    opacity: 0.9;
     padding: 100px 0;
     color: var(--white);
 }
@@ -383,6 +382,7 @@ header {
 .up-part-left p {
     font-family: 'Neucha', sans-serif;
     font-size: 24px;
+    color: var(--translucentwhite);
 }
 
 .up-part-left-text {
