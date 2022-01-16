@@ -176,7 +176,7 @@ header {
     border: 0;
     filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
     margin-bottom: -90px;
-    transform: scale(1.001);
+    transform: scale(0.999);
 }
 
 .bottom-block {
