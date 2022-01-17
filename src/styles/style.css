@@ -40,7 +40,7 @@ h3 {
     font-size: 34px;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p, h1, h2, h3, h4 {
     margin: 0;
 }
 
@@ -67,20 +67,22 @@ header {
     position: relative;
     padding: 100px 0 100px 0;
     overflow-x: hidden;
+    max-width: 1110px;
 }
 
-header {
+.header-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.header-down-part {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 185px 30px;
     grid-template-rows: auto;
     grid-template-areas:
-    "top top"
     "left right"
-}
-
-.title-header {
-    grid-area: top;
 }
 
 .left-block {
@@ -95,8 +97,8 @@ header {
     color: var(--main);
 }
 
-.title-header span {
-    color: var(--dark);
+.title-second-part {
+    margin: 7px 0 185px 0;
 }
 
 .with-image-background:before {
