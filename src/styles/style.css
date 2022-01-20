@@ -65,7 +65,6 @@ p, h1, h2, h3, h4 {
 
 header {
     position: relative;
-    /*width: 100%;*/
     padding: 100px 0 100px 0;
     overflow-x: hidden;
 }
@@ -75,6 +74,10 @@ header {
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
+}
+
+.header-top h1:first-child {
+    position: relative;
 }
 
 .header-down-part {
@@ -117,7 +120,7 @@ header {
 
 .main-img {
     height: 525px;
-    top: 55px;
+    top: -55px;
     position: absolute;
     right: -270px;
 }
