@@ -91,10 +91,12 @@ header {
 
 .left-block {
     grid-area: left;
+    padding-top: 10px;
 }
 
 .right-block {
     grid-area: right;
+    padding-top: 10px;
 }
 
 .main-color {
