@@ -102,12 +102,12 @@ header {
 }
 
 .title-second-part {
-    margin: 8px 0 185px 0;
+    margin: 7px 0 185px 0;
 }
 
 .with-image-background:before {
     content:"";
-    opacity: 0.1;
+    opacity: 0.06;
     position: absolute;
     z-index:-1;
     top: 0;
