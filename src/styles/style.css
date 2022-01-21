@@ -91,12 +91,10 @@ header {
 
 .left-block {
     grid-area: left;
-    padding-top: 10px;
 }
 
 .right-block {
     grid-area: right;
-    padding-top: 10px;
 }
 
 .main-color {
@@ -109,7 +107,7 @@ header {
 
 .with-image-background:before {
     content:"";
-    opacity: 0.06;
+    opacity: 0.1;
     position: absolute;
     z-index:-1;
     top: 0;
