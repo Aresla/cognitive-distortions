@@ -83,7 +83,7 @@ header {
 .header-down-part {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 180px 30px;
+    grid-column: 30px;
     grid-template-rows: auto;
     grid-template-areas:
     "left right"
@@ -102,7 +102,7 @@ header {
 }
 
 .title-second-part {
-    margin: 7px 0 185px 0;
+    margin: 7px 0 187px 0;
 }
 
 .with-image-background:before {
