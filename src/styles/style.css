@@ -13,7 +13,7 @@
 }
 
 body, header {
-    font: 16px/26px 'Open Sans', sans-serif;
+    font: 16px/1.6em 'Open Sans', sans-serif;
     color: var(--dark);
     link: var(--dark);
 }
@@ -83,7 +83,7 @@ header {
 .header-down-part {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
+    column-gap: 28px;
     grid-template-rows: auto;
     grid-template-areas:
     "left right"
@@ -102,7 +102,7 @@ header {
 }
 
 .title-second-part {
-    margin: 7px 0 187px 0;
+    margin: 7px 0 185px 0;
 }
 
 .with-image-background:before {
