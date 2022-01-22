@@ -83,7 +83,7 @@ header {
 .header-down-part {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 28px;
+    column-gap: 26px;
     grid-template-rows: auto;
     grid-template-areas:
     "left right"
